@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title> Loja P&M </title>
+
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Css/style.css" />
+
+</head>
+<body>
+
+   <div>
+	   <header class="topo">
+	   	   <a >
+	   	   	   <h1 class="logo"> > Loja P&M </h1>
+	   	   </a>
+	   	   <nav class="menu">
+	   	   	 <ul class="inicio">
+             <li> <a href="#"> INÍCIO  </a>  </li>
+	   	   	 	 <li> <a href="#"> CAMISAS  </a>  </li>
+	   	   	 	 <li> <a href="#"> CALÇAS </a>  </li>    
+	   	   	 	 <li> <a href="#"> VESTIDOS </a>  </li>  
+	   	   	 	 <li> <a href="#"> SHORTS </a>  </li>  
+	   	   	 </ul>
+	   	   </nav>
+
+	   	   <div (Redes Sociais)>
+	   	   	   <ul>
+	   	   	 	 <li> <a href="#"> <i class="fab fa-facebook-square"></i> </a> </li>
+	   	   	 	 <li> <a href="#"> <i class="fab fa-twitter-square"></i> </a>  </li> 
+	   	   	   </ul>
+	   	   </div>
+	   	   
+	   </header>
+
+	    <main>
+	    	<div>
+                  <section class="familia">
+                  	  
+                  </section>
+                  <section>
+                  	 <h2>Alguns de Nossos Produtos para toda Familia</h2>
+
+                      <!-- article-->
+                        <article>
+                        	 <figure>
+                        	 	<img src="Img/Foto1.jpg" />
+                        	 	<figcaption>
+                        	 		<h4> Pais e Filhos </h4>
+                        	 		<a href="#"> Dê uma conferida! </a>
+                        	 	</figcaption>
+                        	 </figure>
+                        </article>
+                       <!-- fim do article-->
+
+                        <!-- article-->
+                        <article>
+                        	 <figure>
+                        	 	<img src="Img/Foto2.png" />
+                        	 	<figcaption>
+                        	 		<h4> Para as mamães </h4>
+                        	 		<a href="#"> Confiram nossas OFERTAS!! </a>
+                        	 	</figcaption>
+                        	 </figure>
+                        </article>
+                       <!-- fim do article-->
+                  </section>
+                  <section>
+                  	 <h2> Dicas de Outono </h2>
+
+                     <article>
+                     	 <div> 
+                            <img src="Img/Foto3.jpg"/>
+                     	 </div> 
+                     	  <div> 
+                             <p>Roupas ideais para outono, a próxima estação. </p>
+                             <h3> Nova estação. É hora de dar uma inovada no seu visual. </h3>
+                             <p>Confiram nossos preços para roupas de outono e aproveitem para dar um UP na aparência.</p>
+
+                     	 </div> 
+                     </article>
+
+                  </section>
+
+	    	</div>
+	    	<div> 
+               <section class="cadastro">
+               	   <h3> CADASTRE-SE EM NOSSA LOJA AGORA MESMO!</h3>
+               	   <p>Seja o primeiro a receber todas nossas novidades.</p>
+
+               	    <table>
+               	    	<tr>
+               	    		<td> Nome </td>
+               	    		<td> <input class="campoP"  type="text" name=""> </td>
+               	    	</tr>
+               	    	<tr>
+               	    		<td> E-mail </td>
+               	    		<td> <input class="campoP" type="email" name=""> </td>
+               	    	</tr>
+               	    	<tr>
+               	    		<td> Telefone </td>
+               	    		<td> <input class="campoP" type="tel" name=""> </td>
+               	    	</tr>
+               	    	<tr>
+               	    		<td> Sexo </td>
+               	    		<td> 
+               	    			<input type="radio" name="s"> Masculino
+               	    			&nbsp;&nbsp;&nbsp;&nbsp;
+                                <input type="radio" name="s"> Feminino
+
+               	    		</td>
+               	    	</tr>
+               	    	<tr>
+               	    		<td> Login </td>
+               	    		<td> 
+               	    			<input type="text" class="campoP" name="">
+               	    			
+                          Senha
+                                <input type="password" name="" class="campoP">
+               	    		</td>
+               	    	</tr>
+               	    	
+               	    </table>
+
+                    <button> CADASTRE-SE! </button>
+                    <p> Condições para pesssoas maiores de 18 anos sujeito a aprovação de crédito, já temos as codições.</p>
+
+               </section>
+               <section class="face">
+               	  <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffacebook&tabs=timeline&width=310&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="350" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+               </section>
+	    	</div>
+	    </main>
+  
+   </div>
+
+       <footer class="footer">
+	   	   <p> ©2018 Lojas P&M Ltda. Todos os direitos reservados.</p>
+	   	   <p> Termos de Uso e Politica de privacidade</p>
+	   </footer>
+
+</body>
+</html>
